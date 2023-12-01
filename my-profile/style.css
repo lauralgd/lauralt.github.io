@@ -1,0 +1,113 @@
+/* Colors and fonts */
+body {
+    background: #f7f9fc;;
+    color: #575f7d;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+h1, h2, h3 { 
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    color: #575f7d;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+h2 {
+    color:rgb(245, 133, 133);
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 500;
+}
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none; 
+    transition: color 0.3s ease;
+    color: #6b72e1;
+    font-weight: 450;
+    font-size: 14px;
+    border-radius: 25%;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* Custom design with class*/ 
+.container {
+    width: 700px;
+    margin: 50px auto;
+}
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.img-circle {
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.btn-red {
+    background-color: #e27953;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 15px;
+}
+.btn-red:hover {
+    background-color: black;
+    color: white;
+}
+.btn-insta {
+    background-color: #e27953;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+.btn-insta:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+    font-size: 50px;
+    color: rgb(164, 134, 134);
+}
+.list-inline i:hover {
+    color: black;
+}
+.list {
+    text-align: left;
+}
+
+/* Design adjustments using id*/ 
+#introduction p {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: justify;
+    text-rendering: geometricPrecision;
+    padding: 30px;
+}
